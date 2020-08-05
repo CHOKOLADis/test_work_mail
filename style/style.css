@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 85%;
+    margin: 0px auto;
+    text-align: center;
+}
+header{
+    background: rgba(33, 170, 224, 0.801);
+    color: rgb(203, 226, 235);
+    padding: 20px 0px;
+}
+section{
+    margin: 50px;
+}
+form{
+    width: 70%;
+    margin: 0px auto;
+}
+section h2{
+    color: rgb(181, 21, 212);
+}
+section .card{
+    color: rgb(121, 121, 121);
+    text-align: left;
+    margin: 10px 0px;
+}
+input[type="radio"]{
+    margin:8px 8px 0px 0px;
+}
+label{
+    display: inline !important;
+}
+.card-title{
+    color: rgba(33, 170, 224, 0.801);
+}
+input[type="radio"]:hover +label{
+    color: rgb(181, 21, 212);
+}
+.send{
+    width: 50%;
+    margin: 0px auto;
+}
+    
